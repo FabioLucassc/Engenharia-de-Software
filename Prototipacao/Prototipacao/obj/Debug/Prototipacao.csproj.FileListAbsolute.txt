@@ -1,0 +1,14 @@
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\bin\Debug\Prototipacao.exe.config
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\bin\Debug\Prototipacao.exe
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\bin\Debug\Prototipacao.pdb
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\bin\Debug\MetroFramework.Design.dll
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\bin\Debug\MetroFramework.dll
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\bin\Debug\MetroFramework.Fonts.dll
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.csprojAssemblyReference.cache
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.Form1.resources
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.Properties.Resources.resources
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.csproj.GenerateResource.cache
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.csproj.CoreCompileInputs.cache
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.csproj.CopyComplete
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.exe
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.pdb

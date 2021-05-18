@@ -36,7 +36,7 @@ namespace Prototipacao
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1025, 629);
             this.Name = "Form1";
             this.Style = MetroFramework.MetroColorStyle.Teal;
             this.Text = "Teste";

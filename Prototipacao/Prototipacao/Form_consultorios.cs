@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace Prototipacao
 {
-    public partial class Form_Inicial : MetroFramework.Forms.MetroForm
+    public partial class Form_consultorios : MetroFramework.Forms.MetroForm
     {
-        public Form_Inicial()
+        public Form_consultorios()
         {
             InitializeComponent();
         }
 
-        private void metroButton1_Click(object sender, EventArgs e)
+        private void Form_consultorios_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroButton4_Click(object sender, EventArgs e)
         {
 
         }

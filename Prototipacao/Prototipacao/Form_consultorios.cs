@@ -17,6 +17,8 @@ namespace Prototipacao
             InitializeComponent();
         }
 
+
+
         private void Form_consultorios_Load(object sender, EventArgs e)
         {
 
@@ -24,6 +26,9 @@ namespace Prototipacao
 
         private void metroButton4_Click(object sender, EventArgs e)
         {
+            Form_Inicial inicio = new Form_Inicial();
+            inicio.Show();
+            Hide();
 
         }
     }

@@ -36,35 +36,34 @@ namespace Prototipacao
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(84, 96);
-            this.metroButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.metroButton1.Location = new System.Drawing.Point(84, 95);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(677, 97);
-            this.metroButton1.TabIndex = 0;
-            this.metroButton1.Text = "Consultórios - Detalhes";
+            this.metroButton1.TabIndex = 6;
+            this.metroButton1.Text = "CONSULTÓRIO - DETALHES";
             this.metroButton1.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton1.UseSelectable = true;
-            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click_1);
             // 
             // metroButton2
             // 
-            this.metroButton2.Location = new System.Drawing.Point(84, 218);
-            this.metroButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.metroButton2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.metroButton2.Location = new System.Drawing.Point(84, 215);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(677, 97);
-            this.metroButton2.TabIndex = 1;
-            this.metroButton2.Text = "Agenda";
+            this.metroButton2.TabIndex = 7;
+            this.metroButton2.Text = "AGENDAMENTO";
             this.metroButton2.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton2.UseSelectable = true;
             // 
             // metroButton3
             // 
-            this.metroButton3.Location = new System.Drawing.Point(84, 339);
-            this.metroButton3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.metroButton3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.metroButton3.Location = new System.Drawing.Point(84, 336);
             this.metroButton3.Name = "metroButton3";
             this.metroButton3.Size = new System.Drawing.Size(677, 97);
-            this.metroButton3.TabIndex = 2;
-            this.metroButton3.Text = "Pacientes";
+            this.metroButton3.TabIndex = 8;
+            this.metroButton3.Text = "PACIENTES";
             this.metroButton3.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton3.UseSelectable = true;
             // 
@@ -72,6 +71,7 @@ namespace Prototipacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(852, 504);
             this.Controls.Add(this.metroButton3);
@@ -90,7 +90,6 @@ namespace Prototipacao
         }
 
         #endregion
-
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroButton metroButton2;
         private MetroFramework.Controls.MetroButton metroButton3;

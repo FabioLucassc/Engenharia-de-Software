@@ -16,10 +16,23 @@ namespace Prototipacao
         {
             InitializeComponent();
         }
+        private void Form_Inicial_Load(object sender, EventArgs e)
+        {
+
+        }
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
+            Form_consultorios consultorios = new Form_consultorios();
+            consultorios.Show();
+            Hide();
+        }
 
+        private void metroButton1_Click_1(object sender, EventArgs e)
+        {
+            Form_consultorios consultorios = new Form_consultorios();
+            consultorios.Show();
+            Hide();
         }
     }
 }

@@ -34,5 +34,12 @@ namespace Prototipacao
             consultorios.Show();
             Hide();
         }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            Form_consultorios consultorios = new Form_consultorios();
+            consultorios.Show();
+            Hide();
+        }
     }
 }

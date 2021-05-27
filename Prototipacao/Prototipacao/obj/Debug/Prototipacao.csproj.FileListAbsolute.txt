@@ -13,3 +13,8 @@ D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prot
 D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.pdb
 D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.Form_Inicial.resources
 D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.Form_consultorios.resources
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.Form_nova.resources
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.Form_esperanca.resources
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.Form_Centro.resources
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.Form_Paciente.resources
+D:\Users\fabio\OneDrive\Projetos GitHub\Engenharia-de-Software\Prototipacao\Prototipacao\obj\Debug\Prototipacao.Form_agendamentos.resources

@@ -40,7 +40,7 @@ namespace Prototipacao
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(677, 97);
             this.metroButton1.TabIndex = 6;
-            this.metroButton1.Text = "CONSULTÓRIO - DETALHES";
+            this.metroButton1.Text = "CONSULTÓRIOS - DETALHES";
             this.metroButton1.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton1.UseSelectable = true;
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click_1);
@@ -52,7 +52,7 @@ namespace Prototipacao
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(677, 97);
             this.metroButton2.TabIndex = 7;
-            this.metroButton2.Text = "AGENDAMENTO";
+            this.metroButton2.Text = "CONSULTAR AGENDAMENTOS";
             this.metroButton2.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton2.UseSelectable = true;
             this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
@@ -64,9 +64,10 @@ namespace Prototipacao
             this.metroButton3.Name = "metroButton3";
             this.metroButton3.Size = new System.Drawing.Size(677, 97);
             this.metroButton3.TabIndex = 8;
-            this.metroButton3.Text = "PACIENTES";
+            this.metroButton3.Text = "CADASTRAR PACIENTES";
             this.metroButton3.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton3.UseSelectable = true;
+            this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click);
             // 
             // Form_Inicial
             // 
@@ -83,9 +84,10 @@ namespace Prototipacao
             this.Name = "Form_Inicial";
             this.Padding = new System.Windows.Forms.Padding(27, 92, 27, 31);
             this.Style = MetroFramework.MetroColorStyle.Teal;
-            this.Text = "teste";
+            this.Text = "Dra. Janete - Pediatra";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.Load += new System.EventHandler(this.Form_Inicial_Load_1);
             this.ResumeLayout(false);
 
         }

@@ -37,8 +37,20 @@ namespace Prototipacao
 
         private void metroButton2_Click(object sender, EventArgs e)
         {
-            Form_consultorios consultorios = new Form_consultorios();
-            consultorios.Show();
+            Form_agendamentos agendamentos = new Form_agendamentos();
+            agendamentos.Show();
+            Hide();
+        }
+
+        private void Form_Inicial_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroButton3_Click(object sender, EventArgs e)
+        {
+            Form_Paciente pacientes = new Form_Paciente();
+            pacientes.Show();
             Hide();
         }
     }

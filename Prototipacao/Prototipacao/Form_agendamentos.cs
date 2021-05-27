@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Prototipacao
 {
-    public partial class Form_consultorios : MetroFramework.Forms.MetroForm
+    public partial class Form_agendamentos : MetroFramework.Forms.MetroForm
     {
-        public Form_consultorios()
+        public Form_agendamentos()
         {
             InitializeComponent();
         }
@@ -32,25 +32,14 @@ namespace Prototipacao
 
         }
 
-        private void metroButton1_Click(object sender, EventArgs e)
+        private void metroLabel3_Click(object sender, EventArgs e)
         {
-            Form_Centro centro = new Form_Centro();
-            centro.Show();
-            Hide();
+
         }
 
-        private void metroButton2_Click(object sender, EventArgs e)
+        private void metroDateTime1_ValueChanged(object sender, EventArgs e)
         {
-            Form_esperanca esperanca = new Form_esperanca();
-            esperanca.Show();
-            Hide();
-        }
 
-        private void metroButton3_Click(object sender, EventArgs e)
-        {
-            Form_nova nova = new Form_nova();
-            nova.Show();
-            Hide();
         }
 
         private void metroButton4_Click_1(object sender, EventArgs e)
@@ -58,6 +47,11 @@ namespace Prototipacao
             Form_Inicial inicio = new Form_Inicial();
             inicio.Show();
             Hide();
+        }
+
+        private void metroGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -61,6 +61,36 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_agendamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_agendamentos.Designer.cs">
+      <DependentUpon>Form_agendamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_nova.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_nova.Designer.cs">
+      <DependentUpon>Form_nova.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_esperanca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_esperanca.Designer.cs">
+      <DependentUpon>Form_esperanca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Centro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Centro.Designer.cs">
+      <DependentUpon>Form_Centro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Paciente.Designer.cs">
+      <DependentUpon>Form_Paciente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_consultorios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +101,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_agendamentos.resx">
+      <DependentUpon>Form_agendamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_nova.resx">
+      <DependentUpon>Form_nova.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_esperanca.resx">
+      <DependentUpon>Form_esperanca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Centro.resx">
+      <DependentUpon>Form_Centro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Paciente.resx">
+      <DependentUpon>Form_Paciente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_consultorios.resx">
       <DependentUpon>Form_consultorios.cs</DependentUpon>

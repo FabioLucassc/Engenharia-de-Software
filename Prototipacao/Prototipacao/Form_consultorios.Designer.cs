@@ -30,25 +30,11 @@ namespace Prototipacao
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_consultorios));
-            this.metroButton4 = new MetroFramework.Controls.MetroButton();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroButton3 = new MetroFramework.Controls.MetroButton();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
+            this.metroButton4 = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
-            // 
-            // metroButton4
-            // 
-            this.metroButton4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroButton4.BackgroundImage")));
-            this.metroButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.metroButton4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.metroButton4.Location = new System.Drawing.Point(32, 341);
-            this.metroButton4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.metroButton4.Name = "metroButton4";
-            this.metroButton4.Size = new System.Drawing.Size(98, 34);
-            this.metroButton4.TabIndex = 4;
-            this.metroButton4.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroButton4.UseSelectable = true;
-            this.metroButton4.Click += new System.EventHandler(this.metroButton4_Click);
             // 
             // metroButton1
             // 
@@ -59,6 +45,7 @@ namespace Prototipacao
             this.metroButton1.Text = "CONSULTÓRIO - CENTRO";
             this.metroButton1.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton1.UseSelectable = true;
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // metroButton3
             // 
@@ -69,6 +56,7 @@ namespace Prototipacao
             this.metroButton3.Text = "CONSULTÓRIO - VILA NOVA";
             this.metroButton3.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton3.UseSelectable = true;
+            this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click);
             // 
             // metroButton2
             // 
@@ -79,6 +67,22 @@ namespace Prototipacao
             this.metroButton2.Text = "CONSULTÓRIO - VILA ESPERANÇA";
             this.metroButton2.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton2.UseSelectable = true;
+            this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
+            // 
+            // metroButton4
+            // 
+            this.metroButton4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroButton4.BackgroundImage")));
+            this.metroButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.metroButton4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.metroButton4.Location = new System.Drawing.Point(29, 336);
+            this.metroButton4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.metroButton4.Name = "metroButton4";
+            this.metroButton4.Size = new System.Drawing.Size(144, 23);
+            this.metroButton4.TabIndex = 8;
+            this.metroButton4.Text = "Voltar";
+            this.metroButton4.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroButton4.UseSelectable = true;
+            this.metroButton4.Click += new System.EventHandler(this.metroButton4_Click_1);
             // 
             // Form_consultorios
             // 
@@ -87,10 +91,10 @@ namespace Prototipacao
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.BackLocation = MetroFramework.Forms.BackLocation.TopRight;
             this.ClientSize = new System.Drawing.Size(667, 385);
+            this.Controls.Add(this.metroButton4);
             this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroButton3);
             this.Controls.Add(this.metroButton1);
-            this.Controls.Add(this.metroButton4);
             this.Font = new System.Drawing.Font("Impact", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "Form_consultorios";
@@ -105,9 +109,9 @@ namespace Prototipacao
         }
 
         #endregion
-        private MetroFramework.Controls.MetroButton metroButton4;
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroButton metroButton3;
         private MetroFramework.Controls.MetroButton metroButton2;
+        private MetroFramework.Controls.MetroButton metroButton4;
     }
 }
